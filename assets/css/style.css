@@ -1,0 +1,38 @@
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+table{
+    margin: 50px;
+    font-size: 20px;
+    margin: 100px auto;
+    width: 80%;
+}
+td {
+    text-align: left;
+}
+.center{
+    text-align: center !important;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid orange;
+    transition: ease-in-out 0.5s;
+    background-color: wheat;
+}
+
+a:hover{
+    background-color: yellowgreen;
+}
+body{
+    background-color: cadetblue;
+}
